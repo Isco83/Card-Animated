@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    color: antiquewhite;
+    height: 750px;
+    width: auto;
+}
+
+.container {
+    height: 652px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(gold,rgb(255, 6, 110));
+    border: 1px solid rgb(51, 51, 51);
+    box-shadow: 30px 10px 10px rgba(75, 74, 74, 0.575);
+}
+
+.txt-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    height: 0;
+    overflow:hidden;
+    
+}
+
+.img-card:hover ~ .txt-card{
+    height: 400px;
+    transition: 4s;
+}
+
+.txt-card h2 {
+    color: rgb(47, 167, 23);
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Mountains of Christmas';
+    font-size: 35px;
+    box-sizing: border-box;
+    margin: 30px 0 0 0;
+    
+
+}
+
+.txt-card h1 {
+    color: rgb(129, 89, 29);
+    text-shadow: 2px 1px 4px black;
+    font-family: 'Luckiest Guy';
+    font-weight: lighter;
+    font-style: normal;
+    font-size: 0px;
+    margin: 0;
+    
+}
+
+.txt-card  p {
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Minecraft';
+
+}
+
+.txt-end {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    width: 500px;
+    background-color: rgb(255, 6, 110);
+    padding: 0px 30px;
+    box-sizing: border-box;
+    text-align: center;
+    opacity: 3;
+    
+    
+}
+
